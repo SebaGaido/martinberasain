@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Martín Berasain, psicólogo, escritor">
+    <meta name="keywords" content="Berasain, psicólogo, psicología, emociones positivas">
+    <meta name="author" content="Martín Berasain">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!-- Open Graph -->
+	<meta property="og:title" content="Martin Berasain">
+	<meta property="og:url" content="//martinberasain.com">
+	<meta property="og:description" content="Martin Berasain">
+	<!-- <meta property="og:image" content="..."> -->
+	<meta property="og:type" content="website">
+
+	<title>Martin Berasain</title>
+	
+	<!-- Favicon -->	
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="16x16">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+	
+	<!-- Main styles -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/content-slider.css">
+	
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- preloader -->
+<div class="preload"></div>
+
+    <!-- Menu-content -->
+    <div class="menu-nav">
+		<div class="logo"><a href="index.html">Mart&iacute;n Berasain</a></div>
+		<div class="logo-desc">psic&oacute;logo/escritor</div>
+	<div class="style-nav style-nav-resp">
+	<ul>
+		<li class="menu-item"><a href="index.html" onClick="fadeOutContent()">Inicio</a></li>
+		<li class="menu-item"><a href="publicaciones.html" onClick="fadeOutContent()">Publicaciones</a></li>
+		<li class="menu-item"><a href="prensa.html" onClick="fadeOutContent()">Prensa</a></li>
+		<li class="menu-item"><a href="acerca.html" onClick="fadeOutContent()">Acerca</a></li>
+		<li class="menu-item"><a href="http://martinberasain.com/blog" target="_blank" onClick="fadeOutContent()">Blog</a></li>
+		<li class="menu-item"><a href="contacto.html" onClick="fadeOutContent()">Contacto</a></li>
+	</ul>
+	</div>
+	</div>
+	
+	<!-- Menu-content-responsive -->
+	<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidenav-resp">
+    <ul>
+		<li class="menu-item"><a href="index.html">Inicio</a></li>
+		<li class="menu-item"><a href="publicaciones.html">Publicaciones</a></li>
+		<li class="menu-item"><a href="prensa.html">Prensa</a></li>
+		<li class="menu-item"><a href="acerca.html">Acerca</a></li>
+		<li class="menu-item"><a href="http://martinberasain.com/blog">Blog</a></li>
+		<li class="menu-item"><a href="contacto.html">Contacto</a></li>
+	</ul>
+	</div>
+    </div>
+    
+    <span class="open-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	
+	
+	<!-- Header-content -->
+	<div class="container">
+	<div class="header-content">
+		<img class="header-left fade-in two" src="images/martin-berasain-contacto.png" alt="Martín Berasain -Psicólogo/escritor">
+		<div class="header-content-txt-right fade-in three">psimartinberasain@gmail.com</div>
+	</div>
+	</div>
+	
+	<div class="container">
+	<div class="header-content">
+	<div class="header-txt-middle"><h2 class="about fade-in two"></h2></div>
+	</div>
+    </div>
+	
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+		
+    </script>
+    
+    <div class="container">
+	<div class="bottom-txt-bottom"></div>
+	</div>
+	
+	<!-- Footer-content -->
+	<div class="container">
+	  <div class="footer">
+	    <a href="http://sebastiangaido.com" class="f-left" target="_blank">SG.</a>
+	    <span class="f-right">psiberasain@hotmail.com</span>
+	  </div>
+	</div>
+	
+</body>
+
+<!-- javascript -->
+<script src="js/main.js"></script>
+<script src="js/content-slider.min.js"></script>
+
+</html>
